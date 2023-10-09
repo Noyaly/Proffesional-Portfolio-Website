@@ -38,18 +38,14 @@ body > div.about-me.container > div > div.about-me-text.col-4 > p.section-title{
   z-index: -1;
 }
 
-body > div.top-section-overlay > div.BackgroundGradient{
-  width: 2750px;
-  height: 900px; 
-  background-color: #272727;
-  transform: rotate(20deg);
-  translate: -10% -35%; 
+body > div.top-section-overlay img{
+  width: 100%;
 }
 
 body > div.portfolio-navbar > p{
   color: white;
   margin-left: 25%;
-  margin-top: 2%;
+  padding-top: 2%;
 }
 
 .skills-section{
@@ -63,6 +59,12 @@ body > div.portfolio-navbar > p{
   border-radius: 15px;
   background-color: #C7FFED;
   margin-bottom: 10%;
+  transition: 0.5s;
+}
+
+.skills-box:hover{
+  transition: 0.5s;
+  scale: 1.5;
 }
 
 .section-text{
@@ -74,12 +76,31 @@ body > div.portfolio-navbar > p{
   align-items: center;
   color: black;
   text-decoration: none;
+  transition: 0.5s;
 }
 
-body > div:nth-child(4) > div > div > div:nth-child(1) > div > a > img{
-  margin-left: 10%;
+.see-more-project:hover{
+  color: #ff00f7;
+  transition: 0.5s;
 }
 
 .see-more-project p{
   margin-top: 16px;
+  margin-right: 15%;
+}
+
+.cv{
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.cv img{
+  width: 35%;
+  margin-bottom: -35%;
+  z-index: 1;
+}
+
+.footer-overlay img{
+  width: 100%;
 }
