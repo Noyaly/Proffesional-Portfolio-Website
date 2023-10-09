@@ -6,12 +6,61 @@ html{
 
 .about-me-image{
   max-width: 345px !important;
-  max-height: 449px !important;
+  height: 449px !important;
   border-radius: 15px;
   background: #D9D9D9;
 }
 
-.about-me{
-  margin-top: 80px;
+.section-title{
+  font-weight: bold;
 }
 
+body > div.about-me.container > div > div.about-me-text.col-4 > p{
+  color: white;
+}
+
+body > div.about-me.container > div > div.about-me-text.col-4 > p.section-title{
+  color: white;
+}
+
+.about-me{
+  margin-top: 10%;
+}
+
+.about-me-text{
+  padding-top: 7%;
+}
+
+.top-section-overlay{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: -1;
+}
+
+body > div.top-section-overlay > div.BackgroundGradient{
+  width: 2750px;
+  height: 900px; 
+  background-color: #272727;
+  transform: rotate(20deg);
+  translate: -10% -35%; 
+}
+
+body > div.portfolio-navbar > p{
+  color: white;
+  margin-left: 25%;
+  margin-top: 2%;
+}
+
+.skills-section{
+  margin-top: 20%;
+}
+
+.skills-box{
+  width: 240px;
+  height: auto;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #C7FFED;
+  margin-bottom: 10%;
+}
