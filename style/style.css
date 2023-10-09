@@ -25,10 +25,11 @@ body > div.about-me.container > div > div.about-me-text.col-4 > p.section-title{
 
 .about-me{
   margin-top: 10%;
+  vertical-align: middle;
 }
 
 .about-me-text{
-  padding-top: 7%;
+  padding-top: 10%;
 }
 
 .top-section-overlay{
@@ -59,12 +60,13 @@ body > div.portfolio-navbar > p{
   border-radius: 15px;
   background-color: #C7FFED;
   margin-bottom: 10%;
-  transition: 0.5s;
+  transition: 1.5s;
 }
 
 .skills-box:hover{
   transition: 0.5s;
   scale: 1.5;
+  filter: drop-shadow(-6mm 6mm 3mm #4d4d4d);
 }
 
 .section-text{
