@@ -38,7 +38,7 @@ h1 {
   transition: 700ms ease;
   font-variation-settings: "wght" 311;
   margin-bottom: 0.8rem;
-  color: PaleGoldenRod;
+  color: #eee8aa;
   outline: none;
   text-align: center;
 }
@@ -89,6 +89,7 @@ h1:hover {
 .about-me-text-section:hover{
   padding: 5%;
   transition: 0.5s;
+  color: white;
   scale: 1.1;
   filter: drop-shadow(-6mm 6mm 3mm #454545);
 }
@@ -234,4 +235,63 @@ body > div.portfolio-navbar > p{
 
 .btn:active {
  transform: scale(0.9);
+}
+
+.title-section{
+  width: 100%;
+  height: 100vh;
+  background-color: #272727;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.recent-project-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.recent-project img{
+  width: 100%;
+  border-radius: 15px;
+}
+
+.recent-project h2{
+  padding-bottom: 15%;
+}
+
+.project{
+  display: none;
+  width: 100%;
+  height: 100vh;
+  padding: 0 10%;
+  background-color: rgba(39,39,39,0.75);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  color: white;
+}
+
+.recent-project img{
+  transition: 1.5s;
+}
+
+.recent-project img:hover{
+  transition: 0.5s;
+  scale: 1.1;
+  filter: drop-shadow(-6mm 6mm 3mm #454545);
+}
+
+.project-button{
+  position: absolute;
+  top: 2%;
+  right: 2%;
 }
