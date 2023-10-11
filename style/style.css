@@ -38,6 +38,12 @@ body > div.about-me.container > div > div.about-me-text.col{
   text-align: left;
 }
 
+.about-me-text-section{
+  background-color: rgba(39,39,39, 0.5);
+  border-radius: 15px;
+  padding: 5% 5%;
+}
+
 .top-section-overlay{
   width: 100%;
   height: auto;
@@ -57,24 +63,6 @@ body > div.portfolio-navbar > p{
 
 .section-text{
   margin-bottom: 0;
-}
-
-.see-more-project{
-  display: flex;
-  align-items: center;
-  color: black;
-  text-decoration: none;
-  transition: 0.5s;
-}
-
-.see-more-project:hover{
-  color: #ff00f7;
-  transition: 0.5s;
-}
-
-.see-more-project p{
-  margin-top: 16px;
-  margin-right: 15%;
 }
 
 .cv{
@@ -102,8 +90,28 @@ body > div.portfolio-navbar > p{
   font-size: 15px;
   color: white;
   text-decoration: none;
+}
+
+.footer-text{
   position: absolute;
-  top: 90%;
+  bottom: 10%;
+}
+
+.footer-creation-text{
+  position: absolute;
+  bottom: 0;
+  left: 1%;
+  color: white;
+  font-size: 12px;
+}
+
+.footer-email-text{
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 1rem;
+  right: 1%;
+  color: white;
+  font-size: 12px;
 }
 
 .skills{
@@ -118,13 +126,15 @@ body > div.portfolio-navbar > p{
 
 .skills-text{
   text-align: center;
-  background-color: rgba(199,255,237, 0.5);
+  background-color: rgba(39,39,39, 0.5);
+  color: white;
   border-radius: 15px;
   padding: 5%;
   transition: 1.5s;
 }
 
 .skills-text:hover{
+  padding: 5%;
   transition: 0.5s;
   scale: 1.1;
   filter: drop-shadow(-6mm 6mm 3mm #454545);
@@ -135,7 +145,7 @@ body > div.portfolio-navbar > p{
  background: none;
  border: 2px solid #272727 !important;
  font-size: 15px;
- color: #131313;
+ color: white !important;
  cursor: pointer;
  position: relative;
  overflow: hidden;
