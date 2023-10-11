@@ -11,6 +11,44 @@ body{
   background-size: cover;
 }
 
+.portfolio-navbar {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.downward-arrow img{
+  width: 5%;
+  transition: 1.5s;
+}
+
+.downward-arrow:hover{
+  transition: 0.5s;
+  scale: 1.5;
+}
+
+h1 {
+  font-size: 120px;
+  text-transform: uppercase;
+  font-family: 'Gambetta', serif;
+  letter-spacing: -3px;
+  transition: 700ms ease;
+  font-variation-settings: "wght" 311;
+  margin-bottom: 0.8rem;
+  color: PaleGoldenRod;
+  outline: none;
+  text-align: center;
+}
+
+h1:hover {
+  font-variation-settings: "wght" 582; 
+  letter-spacing: 1px;
+}
+
+
 .about-me-image img{
   max-width: 345px !important;
   height: 550px !important;
@@ -22,14 +60,17 @@ body{
   font-weight: bold;
 }
 
-body > div.about-me.container > div > div.about-me-text.col{
+#about-me-section > div > div.about-me-text.col > div{
   color: white;
 }
 
-.about-me{
-  margin-top: 10%;
-  margin-bottom: 25%;
-  vertical-align: middle;
+.about-me-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 0 10% !important;
 }
 
@@ -42,7 +83,16 @@ body > div.about-me.container > div > div.about-me-text.col{
   background-color: rgba(39,39,39, 0.5);
   border-radius: 15px;
   padding: 5% 5%;
+  transition: 1.5s;
 }
+
+.about-me-text-section:hover{
+  padding: 5%;
+  transition: 0.5s;
+  scale: 1.1;
+  filter: drop-shadow(-6mm 6mm 3mm #454545);
+}
+
 
 .top-section-overlay{
   width: 100%;
@@ -95,6 +145,7 @@ body > div.portfolio-navbar > p{
 .footer-text{
   position: absolute;
   bottom: 10%;
+  padding-left: 1%;
 }
 
 .footer-creation-text{
@@ -111,7 +162,11 @@ body > div.portfolio-navbar > p{
   margin-bottom: 1rem;
   right: 1%;
   color: white;
-  font-size: 12px;
+  font-size: 12px !important;
+}
+
+.full-width-Skills{
+  margin-top: 15%;
 }
 
 .skills{
