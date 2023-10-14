@@ -26,53 +26,89 @@
     <div class="recent-project text-center">
       <h2>Most Recent Project</h2>
       <div onclick="showHideText()">
-        <a href="#project-1">
+        <a href="#project">
           <img src="https://placehold.co/600x400">
         </a>
       </div>
     </div>
   </div>
 
-  <div class="project" id="project-1">
+  <div class="project" id="project">
     <a href="#recent-project-section">
-      <button class="btn project-button" onclick="showHideText()" href="#project-1">Close</button>
+      <button class="btn project-button" onclick="showHideText()" href="#project">Close</button>
     </a>
-    <h1>Portfolio Project</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <h1>Proffesional Portfolio Project</h1>
+    <p> The Site you see before you is something that I have built on my own.<br> My journey in creating my portfolio has been a rewarding experience. This website showcases my most significant works, ranging from website building and photography to graphics design and video editing. Leveraging HTML, CSS, and JavaScript, I not only presented my portfolio but also honed my coding skills. The process of constructing this site has been a remarkable learning opportunity, particularly in terms of improving my JavaScript and CSS proficiency. It's not just a representation of my work; it's a testament to my ongoing growth as a digital creator.</p>
   </div>
 
-
-  <div class="footer-overlay">
-    <img src="images/Background-Gradient.svg">
-    <div class="footer">
-      <div class="container  d-flex justify-content-center">
-        <div class="row footer-text">
-          <div class="col-md-4 col-sm-12">
-            <a href="/">Home</a>
-          </div>
-          <div class="col-md-4 col-sm-12">
-            <a href="/">HTML, CSS, JavaScript</a>
-          </div>
-          <div class="col-md-4 col-sm-12">    
-            <a href="/">Photography</a>
-          </div>
-          <div class="col-md-4 col-sm-12">    
-            <a href="/">2D Graphics Design</a>
-          </div>
-          <div class="col-md-4 col-sm-12">    
-            <a href="/">3D Modelling</a>
-          </div>
-          <div class="col-md-4 col-sm-12">    
-            <a href="/">Video Editing</a>
-          </div>
-          <div class="col-md-4 col-sm-12">
-            <a href="/">Contact</a>
-          </div>
+  <div class="all-projects" id="all-projects">
+    <div class="container">
+      <div class="row">
+        <div class="col" id="project-1" onclick="project1Text()">
+          <a href="#all-project-text">
+            <img src="https://placehold.co/600x400">
+          </a>
+        </div>
+        <div class="col" id="project-2" onclick="project2Text()">
+          <a href="#all-project-text">
+            <img src="https://placehold.co/600x400">
+          </a>
+        </div>
+        <div class="col" id="project-3" onclick="showHideTextAllProjects()">
+          <a href="#all-project-text">
+            <img src="https://placehold.co/600x400">
+          </a>
+        </div>
+        <div class="col" id="project-4" onclick="showHideTextAllProjects()">
+          <a href="#all-project-text">
+            <img src="https://placehold.co/600x400">
+          </a>
         </div>
       </div>
-      <div class="footer-creation-text"><p>Site built by Noyal Raju Arackal 2023</p></div>
-      <div class="footer-email-text"><a href="mailto:noyalrajuarackal.com">noyalrajuarackal.com</a></div>
     </div>
+  </div>
+
+    <div class="project" id="all-project-text">
+    <a href="#all-projects">
+      <button class="btn project-button" onclick="showHideTextAllProjects()" href="#all-projects">Close</button>
+    </a>
+    <div id="project-content">
+    </div>
+    </div>
+
+  <div class="project-footer">
+    <div class="container">
+      <div class="row project-footer-text text-center d-flex justify-content-center">
+        <div class="col-md-3">
+            <a href="/">Home</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/">HTML, CSS, JavaScript</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/">Photography</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/">2D Graphics Design</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/">3D Modelling</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/">Video Editing</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom-section container">
+      <div class="row text-center d-flex justify-content-center">
+        <div class="project-footer-creation-text col-6"><p>Site built by Noyal Raju Arackal 2023</p></div>
+        <div class="project-footer-email-text col-6"><a href="mailto:noyalrajuarackal@gmail.com">noyalrajuarackal@gmail.com</a></div>
+      </div>
+    </div>
+
   </div>
 
   <script src="/scripts/html-css-javascript.js"></script>
