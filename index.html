@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Noyal's Portfolio</title>
   <link href="style/style.css" rel="stylesheet" type="text/css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -12,14 +13,15 @@
 
 <body style="background-image: url('images/topographic-background-svg.svg');">
 
-  <div class="top-section-overlay">
-    <img src="images/top-overlay-background.svg">
-  </div>
-  
-  <div class="portfolio-navbar">
+  <div class="title-section">
+    <div class="home-icon">
+      <a href="/">
+        <img src="/images/home-icon.svg">
+      </a>
+    </div>
     <h1>Portfolio - Noyal Raju Arackal</h1>
     <a class="downward-arrow d-flex justify-content-center" href="#about-me-section">
-      <img src="images/downward-arrow.svg">
+      <img src="/images/downward-arrow.svg">
     </a>
   </div>
 
@@ -59,7 +61,7 @@
       <div class="skills-text">
         <h3>Photography</h3>
         <p>Photography is more than just a hobby for me; it's a pursuit of capturing the best moments and stories through my lens. While it's not my primary focus, achieving exceptional photos is always a goal close to my heart. Most of my photographic journey revolves around my trusty mobile phone, which has become my constant companion in capturing life's unique moments. Whether it's the play of light and shadows, the beauty of everyday life, or the unexpected details that catch my eye, I'm constantly seeking to refine my skills and find the extraordinary in the ordinary through photography.</p>
-        <button class="btn" onclick="window.location.href='/';">See Projects</button>
+        <button class="btn" onclick="window.location.href='pages/photography.html';">See Projects</button>
       </div>
     </div>
   
@@ -67,7 +69,7 @@
       <div class="skills-text">
         <h3>2D Graphics Design</h3>
         <p>My journey into the world of 2D graphics design began as a hobby during my college days when I first dipped my toes into the creative realms of Photoshop and Adobe Illustrator. What started as a curiosity soon blossomed into a passion. The power of these design tools ignited my imagination and allowed me to craft visual stories that spoke volumes. From manipulating colors to shaping intricate designs, I found joy in the details and artistry of 2D graphics. With each project, I've honed my skills, learning new techniques and exploring fresh avenues of creativity, all rooted in a hobby that has become an integral part of my life.</p>
-        <button class="btn" onclick="window.location.href='/';">See Projects</button>
+        <button class="btn" onclick="window.location.href='pages/2d-graphics-design.html';">See Projects</button>
       </div>
     </div>
   
@@ -75,7 +77,7 @@
       <div class="skills-text">
         <h3>3D Modelling</h3>
         <p>My journey into the world of 3D modeling began as a college hobby, ignited by my initial exploration of AutoDesk software. It all started with a simple idea – creating a house in 3D. As I delved into the intricacies of 3D design, I realized the immense potential it held. The ability to bring my ideas to life in three dimensions was incredibly inspiring. I quickly moved on to Fusion 360, which became my go-to tool for translating my imagination into detailed 3D models. What started as a hobby has now become a genuine passion, driving me to continually push the boundaries of my creativity and expand my 3D modeling skills in exciting and innovative ways.</p>
-        <button class="btn" onclick="window.location.href='/';">See Projects</button>
+        <button class="btn" onclick="window.location.href='pages/3d-modelling.html';">See Projects</button>
       </div>
     </div>
   
@@ -83,7 +85,7 @@
       <div class="skills-text">
         <h3>Video Ediditing</h3>
         <p>My journey into the world of video editing began as a hobby, sparked by my fascination with AMV (Animated Music Video) edits on YouTube. Witnessing the incredible potential for storytelling and creativity through visual media, I decided to embark on my own editing adventure. I started my journey with Davinci Resolve, an excellent tool for both beginners and experienced editors, and it quickly became my canvas for experimenting with visual effects, cutting-edge techniques, and crafting engaging narratives. What began as a simple curiosity has evolved into a genuine passion for manipulating the visual medium, driving me to explore new horizons in the world of video editing.</p>
-        <button class="btn" onclick="window.location.href='/';">See Projects</button>
+        <button class="btn" onclick="window.location.href='pages/video-editing.html';">See Projects</button>
       </div>
     </div>
   </div>
@@ -92,37 +94,39 @@
     <img src="images/Noyal Raju arackal.png">
   </div>
 
-  <div class="footer-overlay">
-    <img src="images/Background-Gradient.svg">
-    <div class="footer">
-      <div class="container  d-flex justify-content-center">
-        <div class="row footer-text">
-          <div class="col-md-4 col-sm-12">
+  <div class="project-footer">
+    <div class="container">
+      <div class="row project-footer-text text-center d-flex justify-content-center">
+        <div class="col-md-3">
             <a href="/">Home</a>
-          </div>
-          <div class="col-md-4 col-sm-12">
-            <a href="/">HTML, CSS, JavaScript</a>
-          </div>
-          <div class="col-md-4 col-sm-12">    
-            <a href="/">Photography</a>
-          </div>
-          <div class="col-md-4 col-sm-12">    
-            <a href="/">2D Graphics Design</a>
-          </div>
-          <div class="col-md-4 col-sm-12">    
-            <a href="/">3D Modelling</a>
-          </div>
-          <div class="col-md-4 col-sm-12">    
-            <a href="/">Video Editing</a>
-          </div>
-          <div class="col-md-4 col-sm-12">
+        </div>
+        <div class="col-md-3">
+            <a href="/pages/html-css-javascript.html">HTML, CSS, JavaScript</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/pages/photography.html">Photography</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/pages/2d-graphics-design.html">2D Graphics Design</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/pages/3d-modelling.html">3D Modelling</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/pages/video-editing.html">Video Editing</a>
+        </div>
+        <div class="col-md-3">
             <a href="/">Contact</a>
-          </div>
         </div>
       </div>
-      <div class="footer-creation-text"><p>Site built by Noyal Raju Arackal 2023</p></div>
-      <div class="footer-email-text"><a href="mailto:noyalrajuarackal@gmail.com">noyalrajuarackal@gmail.com</a></div>
     </div>
+    <div class="footer-bottom-section container">
+      <div class="row text-center d-flex justify-content-center">
+        <div class="project-footer-creation-text col-6"><p>Site built by Noyal Raju Arackal 2023</p></div>
+        <div class="project-footer-email-text col-6"><a href="mailto:noyalrajuarackal@gmail.com">noyalrajuarackal@gmail.com</a></div>
+      </div>
+    </div>
+
   </div>
 
   <script src="scripts/script.js"></script>
