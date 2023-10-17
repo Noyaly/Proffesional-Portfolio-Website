@@ -173,6 +173,7 @@ h1:hover {
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 10%;
+  border-radius: 15px;
 }
 
 .skills-text{
@@ -369,22 +370,16 @@ body > div.project-footer > div.footer-bottom-section.container > div > div.proj
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
-    margin: 0 auto;
+    margin: 15% auto;
     padding: 10px;
 }
 
 .gallery-item {
   flex-basis: 32.7%;
   margin: 6px;
-  max-width: 700px;
-  max-height: 325px;
+  max-width: 300px;
+  max-height: 150px;
   cursor: pointer;
-  transition: 1.5s;
-}
-
-.gallery-item:hover {
-  transition: 0.5s;
-  scale: 1.1;
 }
 
 .gallery-item img {
