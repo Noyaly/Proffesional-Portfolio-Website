@@ -19,31 +19,46 @@
       </a>
     </div>
     <h1>3D Modelling</h1>
-    <a class="downward-arrow d-flex justify-content-center" href="#gallery">
+    <a class="downward-arrow d-flex justify-content-center" href="#all-projects">
       <img src="/images/downward-arrow.svg">
     </a>
   </div>
 
-  <div class="gallery-container d-flex justify-content-center" id="gallery">
-    <div class="gallery-item" data-index="1">
-        <img src="/images/2d-graphics-design-images/day and nightpng.jpg">
+  <div class="all-projects" id="all-projects">
+    <h2 class="all-projects-title">My Work</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-12" id="project-4" onclick="project4Text()">
+          <a href="#all-project-text">
+            <img src="/images/3D-graphics-projects/assignment-house/Render_of_house.jpg">
+          </a>
+        </div>
+        <div class="col-md-6 col-sm-12" id="project-3" onclick="project3Text()">
+          <a href="#all-project-text">
+            <img src="/images/3D-graphics-projects/concept-house-02/main-image.jpg">
+          </a>
+        </div>
+        <div class="col-md-6 col-sm-12" id="project-2" onclick="project2Text()">
+          <a href="#all-project-text">
+            <img src="/images/3D-graphics-projects/concept-house-01/main-image.jpg">
+          </a>
+        </div>
+        <div class="col-md-6 col-sm-12" id="project-1" onclick="project1Text()">
+          <a href="#all-project-text">
+            <img src="/images/3D-graphics-projects/desk-setup/front-view-desk.jpg">
+          </a>
+        </div>
+      </div>
     </div>
-    <div class="gallery-item" data-index="2">
-        <img src="/images/2d-graphics-design-images/hybrid_creature_abomination_page-0001.jpg">
+  </div>
+
+    <div class="project" id="all-project-text">
+    <a href="#all-projects">
+      <button class="btn project-button" onclick="showHideTextAllProjects()" href="#all-projects">Close</button>
+    </a>
+    <div id="project-content">
     </div>
-    <div class="gallery-item" data-index="3">
-        <img src="/images/2d-graphics-design-images/linkedin_banner.jpg">
     </div>
-    <div class="gallery-item" data-index="4">
-        <img src="/images/2d-graphics-design-images/NameBlock2_page-0001.jpg">
-    </div>
-    <div class="gallery-item" data-index="5">
-        <img src="/images/2d-graphics-design-images/New_Dr_Who_Title_Scene_page-0001.jpg">
-    </div>
-    <div class="gallery-item" data-index="6">
-        <img src="/images/2d-graphics-design-images/graffiti_wall_page-0001.jpg">
-    </div>
-</div>
 
   <div class="project-footer">
     <div class="container">
@@ -67,7 +82,7 @@
             <a href="/pages/video-editing.html">Video Editing</a>
         </div>
         <div class="col-md-3">
-            <a href="/">Contact</a>
+            <a href="/pages/contact.html">Contact</a>
         </div>
       </div>
     </div>
@@ -80,7 +95,7 @@
 
   </div>
 
-  <script src="/scripts/gallery-script.js"></script>
+  <script src="/scripts/3D-modelling.js"></script>
 
 
 </body>

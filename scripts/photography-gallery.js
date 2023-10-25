@@ -1,4 +1,4 @@
-const galleryItem = document.getElementsByClassName("gallery-item");
+const galleryItem = document.getElementsByClassName("photography");
 const lightBoxContainer = document.createElement("div");
 const lightBoxContent = document.createElement("div");
 const lightBoxImg = document.createElement("img");
